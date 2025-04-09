@@ -4,7 +4,7 @@ import { User } from 'lucide-react';
 
 function Header() {
   return (
-    <header className="bg-accent fixed flex w-full flex-wrap items-center justify-between border-b px-3 py-5 sm:px-12">
+    <header className="bg-accent fixed flex w-full flex-wrap items-center justify-between border-b px-3 py-5 sm:px-12 z-1">
       <div className="w-full text-center bg-input mb-2">
         <p>This Is A Demo There Is No Real Data Except The GitHub Infos</p>
       </div>
