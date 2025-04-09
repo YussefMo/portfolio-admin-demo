@@ -37,8 +37,6 @@ const items = [
 ];
 
 function SidebarComp() {
-
-
   return (
     <>
       <Sidebar>
@@ -73,15 +71,12 @@ function SidebarComp() {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent
                   side="top"
-                  className="bg-accent shadow-lg rounded-md ml-[-150%] w-[400%]"
+                  className="bg-accent ml-[-150%] w-[400%] rounded-md shadow-lg"
                 >
-                  <DropdownMenuItem className="mb-2 p-1">
+                  <DropdownMenuItem className="hover:bg-primary mb-2 cursor-pointer p-1">
                     <span>Account</span>
                   </DropdownMenuItem>
-                  <DropdownMenuItem className="mb-2 p-1">
-                    <span>Billing</span>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem className="mb-2 p-1">
+                  <DropdownMenuItem className="hover:bg-primary mb-2 cursor-pointer p-1">
                     <span>Sign out</span>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
