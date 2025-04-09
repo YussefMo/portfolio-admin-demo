@@ -18,8 +18,9 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={client}>
       <ThemeProvider>
-        <Suspense fallback={<FullPageSpinner />} />
-        <AppRouts />
+        <Suspense fallback={<FullPageSpinner />}>
+          <AppRouts />
+        </Suspense>
       </ThemeProvider>
     </QueryClientProvider>
   </StrictMode>
